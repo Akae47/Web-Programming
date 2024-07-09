@@ -11,15 +11,10 @@ feedback. In this project, I will create a professional-looking HTML document th
 students to provide feedback about their campus visit.
 
 This  document should display a form containing:
-
 • text boxes for the student’s name, street address, and e-mail address.
-
 • checkboxes that allow prospective students to indicate what they liked most about the campus. The
 checkboxes should include: students, location, campus, courses offered, housing, and sports.
-
 • radio buttons that ask the prospective students how they became interested in the university. Options
 should include: family, friends, television, Internet, and other.
-
 • a pulldown menu with multiple choices showing the departments they visited.
-
 • a text area for additional comments, a submit button, and a reset button.
