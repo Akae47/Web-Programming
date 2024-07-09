@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UT Campus Visit Feedback</title>
+  </head>
+  <body>
+    <h1>Campus Visit Feedback Form</h1>
+
+    <form action="" method="post">
+      <table border="0">
+        <tr>
+          <td><label for="name">Name:</label></td>
+          <td><input type="text" id="name" name="name" required /></td>
+        </tr>
+
+        <tr>
+          <td><label for="address">Street Address:</label></td>
+          <td><input type="text" id="address" name="address" required /></td>
+        </tr>
+
+        <tr>
+          <td><label for="email">E-mail Address:</label></td>
+          <td><input type="email" id="email" name="email" required /></td>
+        </tr>
+
+        <tr>
+          <td><label>Liked Most:</label></td>
+          <td>
+            <input
+              type="checkbox"
+              id="liked_students"
+              name="liked[]"
+              value="students"
+            />
+            Students
+            <input
+              type="checkbox"
+              id="liked_location"
+              name="liked[]"
+              value="location"
+            />
+            Location
+            <input
+              type="checkbox"
+              id="liked_campus"
+              name="liked[]"
+              value="campus"
+            />
+            Campus
+            <input
+              type="checkbox"
+              id="liked_courses"
+              name="liked[]"
+              value="courses"
+            />
+            Courses Offered
+            <input
+              type="checkbox"
+              id="liked_housing"
+              name="liked[]"
+              value="housing"
+            />
+            Housing
+            <input
+              type="checkbox"
+              id="liked_sports"
+              name="liked[]"
+              value="sports"
+            />
+            Sports
+          </td>
+        </tr>
+
+        <tr>
+          <td><label>How did you become interested?</label></td>
+          <td>
+            <input
+              type="radio"
+              id="interest_family"
+              name="interest"
+              value="family"
+            />
+            Family
+            <input
+              type="radio"
+              id="interest_friends"
+              name="interest"
+              value="friends"
+            />
+            Friends
+            <input
+              type="radio"
+              id="interest_tv"
+              name="interest"
+              value="television"
+            />
+            Television
+            <input
+              type="radio"
+              id="interest_internet"
+              name="interest"
+              value="internet"
+            />
+            Internet
+            <input
+              type="radio"
+              id="interest_other"
+              name="interest"
+              value="other"
+            />
+            Other
+          </td>
+        </tr>
+
+        <tr>
+          <td><label for="departments">Departments Visited:</label></td>
+          <td>
+            <select id="departments" name="departments">
+              <option value="School of Architecture">Architecture</option>
+              <option value="College of Fine Arts">Fine Arts</option>
+              <option value="School of Law">Law</option>
+              <option value="College of Liberal Arts">Liberal Arts</option>
+              <option value="Dell Medical School">Medicine</option>
+              <option value="College of Natural Sciences">
+                Natuaral Science
+              </option>
+              <option value="School of Nursing">Nursing</option>
+              <option value="College of Pharmacy">Pharmacy</option>
+              <option value="Cockrell School of Engineering">Engneering</option>
+              <option value="Lyndon B. Johnson School of Public Affairs">
+                Arts
+              </option>
+              <option value="Steve Hicks School of Social Work">
+                Social Work
+              </option>
+              <option value="Undergraduate College">Undergrad</option>
+              <option value="Moody College of Communication">
+                Communication
+              </option>
+              <option
+                value="John A. and Katherine G. Jackson School of Geosciences"
+              >
+                Geoscience
+              </option>
+              <option value="Graduate School">Graduate</option>
+            </select>
+          </td>
+        </tr>
+
+        <tr>
+          <td><label for="comments">Additional Comments:</label></td>
+          <td>
+            <textarea
+              id="comments"
+              name="comments"
+              rows="4"
+              cols="50"
+            ></textarea>
+          </td>
+        </tr>
+
+        <tr>
+          <td colspan="2">
+            <input type="submit" value="Submit" />
+            <input type="reset" value="Reset" />
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
+1,1 Top
