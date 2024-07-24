@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="loan_calculator.css" />
+    <title>Mortgage Calculator</title>
+  </head>
+  <body>
+    <div class="calculator">
+      <label for="principal">Principal Amount:</label>
+      <input type="number" id="principal" step="0.01" required />
+
+      <label for="interestRate">Yearly Interest Rate (in decimal):</label>
+      <input
+        type="number"
+        id="interestRate"
+        step="0.01"
+        min="0"
+        max="1"
+        required
+      />
+
+      <label for="loanTerm">Loan Term in Months:</label>
+      <input type="number" id="loanTerm" step="1" min="1" required />
+
+      <button onclick="calculate()">Calculate</button>
+      <button onclick="clearFields()">Clear</button>
+
+      <label for="monthlyPayment">Monthly Payment:</label>
+      <p id="monthlyPaymentOutput">0.00</p>
+
+      <label for="sumOfPayments">Sum of All Payments:</label>
+      <p id="sumOfPaymentsOutput">0.00</p>
+
+      <label for="totalInterest">Total Interest Paid:</label>
+      <p id="totalInterestOutput">0.00</p>
+    </div>
+
+    <script src="loan_calculator.css"></script>
+  </body>
+</html>
